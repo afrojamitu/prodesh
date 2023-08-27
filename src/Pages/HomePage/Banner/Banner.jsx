@@ -32,11 +32,11 @@ const Banner = () => {
                 <div className='w-full relative'>
                     <img className='w-full h-full' src={bannerImage} alt="" />
 
-                    <div className='bg-white flex items-start gap-2 p-3 rounded shadow-md shadow-slate-400 absolute top-52 right-10'>
+                    <div className='bg-white flex items-start gap-2 p-1 md:p-3 rounded shadow-md shadow-slate-400 absolute top-36 md:top-52 right-0 md:right-10'>
                         <img className='w-8' src={brainIcon} alt="" />
                         <div>
-                            <h1 className="text-lg font-semibold">12k+ Students </h1>
-                            <p>Working here</p>
+                            <h1 className="md:text-lg font-semibold">12k+ Students </h1>
+                            <p className='text-sm'>Working here</p>
                         </div>
                     </div>
                 </div>
